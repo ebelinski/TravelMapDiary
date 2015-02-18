@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapViewController">
+            <connections>
+                <outlet property="addPinButton" destination="TRm-hQ-CtL" id="KTp-r1-s61"/>
+                <outlet property="deleteButton" destination="d86-dI-Yz6" id="iib-zS-4tX"/>
+                <outlet property="mapView" destination="UU3-tm-02F" id="8hy-I7-NwO"/>
+                <outlet property="shareButton" destination="5A7-W1-LBl" id="xsd-4M-DMf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-tm-02F">
+                    <rect key="frame" x="0.0" y="64" width="375" height="509"/>
+                </mapView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fVP-ht-ff1">
+                    <rect key="frame" x="0.0" y="573" width="375" height="44"/>
+                    <items>
+                        <barButtonItem title="Add Pin" width="73" id="TRm-hQ-CtL">
+                            <connections>
+                                <action selector="addPin:" destination="-1" id="ox9-rn-zBk"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Share" width="56" id="5A7-W1-LBl">
+                            <connections>
+                                <action selector="sendFeedback:" destination="-1" id="Ket-YV-11A"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Delete" width="64" id="d86-dI-Yz6"/>
+                    </items>
+                </toolbar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzp-Oj-GcH">
+                    <rect key="frame" x="182" y="308" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UU3-tm-02F" secondAttribute="trailing" id="5in-FR-lvs"/>
+                <constraint firstAttribute="bottom" secondItem="fVP-ht-ff1" secondAttribute="bottom" constant="50" id="6VW-30-gdy"/>
+                <constraint firstItem="fVP-ht-ff1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HGg-Nc-UGs"/>
+                <constraint firstItem="fVP-ht-ff1" firstAttribute="top" secondItem="UU3-tm-02F" secondAttribute="bottom" id="atq-k7-Eu2"/>
+                <constraint firstAttribute="trailing" secondItem="fVP-ht-ff1" secondAttribute="trailing" id="gTo-D3-d0d"/>
+                <constraint firstItem="UU3-tm-02F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="h7g-O0-V74"/>
+                <constraint firstItem="UU3-tm-02F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rMQ-Om-Gy0"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

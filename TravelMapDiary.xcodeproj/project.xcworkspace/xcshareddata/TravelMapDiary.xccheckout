@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB256020-281B-43AD-9EE2-6523CAC18467</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TravelMapDiary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E88B238478E9FF08EC22F289899B1CAFFA23B323</key>
+		<string>https://github.com/ebelinski/TravelMapDiary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TravelMapDiary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E88B238478E9FF08EC22F289899B1CAFFA23B323</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ebelinski/TravelMapDiary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E88B238478E9FF08EC22F289899B1CAFFA23B323</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E88B238478E9FF08EC22F289899B1CAFFA23B323</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TravelMapDiary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

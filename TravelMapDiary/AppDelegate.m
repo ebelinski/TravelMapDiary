@@ -7,18 +7,77 @@
 //
 
 #import "AppDelegate.h"
+#import "MapViewController.h"
+#import "SettingsViewController.h"
+#import "ExploreViewController.h"
+#import "Parse/Parse.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () 
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    // Hello Liz
+    self.globalColor1 = [UIColor colorWithRed:0.533 green:0.769 blue:0.145 alpha:1];
+    
+    self.globalBarStyle = UIBarStyleDefault;
+    
+    [Parse setApplicationId:@"rzeegJPeQW2LJ58oZCqdgDOuZN6kiMGEgi6oA5pq"
+                  clientKey:@"J0ruJpPz0XlQoKE3zA0CmBxFIlL25a6tq7tUzFyx"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    NSUUID *oNSUUID = [[UIDevice currentDevice] identifierForVendor];
+    self.userDeviceID = [NSString stringWithString:[oNSUUID UUIDString]];
+    
+    // Login to Parse
+    self.currentUser = [PFUser currentUser];
+    if (!self.currentUser) {
+        PFUser *user = [PFUser user];
+        
+        user.username = self.userDeviceID;
+        user.password = @"password";
+        
+        [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (error) {
+                // Assume the error is because the user already existed.
+                [PFUser logInWithUsername:self.userDeviceID password:@"password"];
+            } else {
+                self.currentUser = [PFUser currentUser];
+            }
+        }];
+    }
+    
+    MapViewController *map = [[MapViewController alloc] init];
+    UINavigationController *mapNav = [[UINavigationController alloc] initWithRootViewController:map];
+    
+    ExploreViewController *explore = [[ExploreViewController alloc] init];
+    UINavigationController *exploreNav = [[UINavigationController alloc] initWithRootViewController:explore];
+    
+    SettingsViewController *settings = [[SettingsViewController alloc] init];
+    UINavigationController *settingsNav = [[UINavigationController alloc] initWithRootViewController:settings];
+    
+    [mapNav.navigationBar setBarStyle:self.globalBarStyle];
+    [exploreNav.navigationBar setBarStyle:self.globalBarStyle];
+    [settingsNav.navigationBar setBarStyle:self.globalBarStyle];
+    
+    
+    [mapNav.navigationBar setTintColor:self.globalColor1];
+    [exploreNav.navigationBar setTintColor:self.globalColor1];
+    [settingsNav.navigationBar setTintColor:self.globalColor1];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[mapNav, exploreNav, settingsNav];
+    
+    
+    [tabBarController.tabBar setTintColor:self.globalColor1];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6051A481A93AB8E00A41484 /* CustomMKPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6051A471A93AB8E00A41484 /* CustomMKPointAnnotation.m */; };
 		B6C5B8331A8FD3A400DF0C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B8321A8FD3A400DF0C43 /* main.m */; };
 		B6C5B8361A8FD3A400DF0C43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B8351A8FD3A400DF0C43 /* AppDelegate.m */; };
-		B6C5B8391A8FD3A400DF0C43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B8381A8FD3A400DF0C43 /* ViewController.m */; };
-		B6C5B83C1A8FD3A400DF0C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B83A1A8FD3A400DF0C43 /* Main.storyboard */; };
 		B6C5B83E1A8FD3A400DF0C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B83D1A8FD3A400DF0C43 /* Images.xcassets */; };
 		B6C5B8411A8FD3A400DF0C43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B83F1A8FD3A400DF0C43 /* LaunchScreen.xib */; };
 		B6C5B84D1A8FD3A400DF0C43 /* TravelMapDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B84C1A8FD3A400DF0C43 /* TravelMapDiaryTests.m */; };
+		B6C5B8591A8FE73300DF0C43 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B8571A8FE73300DF0C43 /* MapViewController.m */; };
+		B6C5B85A1A8FE73300DF0C43 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B8581A8FE73300DF0C43 /* MapViewController.xib */; };
+		B6C5B85C1A8FE95C00DF0C43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B85B1A8FE95C00DF0C43 /* MapKit.framework */; };
+		B6C5B85F1A8FEC6900DF0C43 /* cottage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B85D1A8FEC6900DF0C43 /* cottage.png */; };
+		B6C5B8601A8FEC6900DF0C43 /* cottage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B85E1A8FEC6900DF0C43 /* cottage@2x.png */; };
+		B6C5B8661A9017D000DF0C43 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8611A9017D000DF0C43 /* Bolts.framework */; };
+		B6C5B8671A9017D000DF0C43 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8621A9017D000DF0C43 /* Parse.framework */; };
+		B6C5B8681A9017D000DF0C43 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8631A9017D000DF0C43 /* ParseCrashReporting.framework */; };
+		B6C5B8691A9017D000DF0C43 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8641A9017D000DF0C43 /* ParseFacebookUtils.framework */; };
+		B6C5B86A1A9017D000DF0C43 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8651A9017D000DF0C43 /* ParseUI.framework */; };
+		B6C5B86C1A901D3900DF0C43 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B86B1A901D3900DF0C43 /* MessageUI.framework */; };
+		B6C5B86E1A901D4000DF0C43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B86D1A901D4000DF0C43 /* CoreLocation.framework */; };
+		B6C5B8701A901D9900DF0C43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B86F1A901D9900DF0C43 /* QuartzCore.framework */; };
+		B6C5B8721A901DA200DF0C43 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8711A901DA200DF0C43 /* Security.framework */; };
+		B6C5B8741A901DA900DF0C43 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8731A901DA900DF0C43 /* AudioToolbox.framework */; };
+		B6C5B8761A901DB000DF0C43 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8751A901DB000DF0C43 /* MobileCoreServices.framework */; };
+		B6C5B8781A901DBA00DF0C43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8771A901DBA00DF0C43 /* SystemConfiguration.framework */; };
+		B6C5B87A1A901DC200DF0C43 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8791A901DC200DF0C43 /* CFNetwork.framework */; };
+		B6C5B87C1A901DCA00DF0C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B87B1A901DCA00DF0C43 /* CoreGraphics.framework */; };
+		B6C5B87E1A901DD300DF0C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B87D1A901DD300DF0C43 /* UIKit.framework */; };
+		B6C5B8801A901DD900DF0C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B87F1A901DD900DF0C43 /* Foundation.framework */; };
+		B6C5B8841A901E3200DF0C43 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8831A901E3200DF0C43 /* libz.1.1.3.dylib */; };
+		B6C5B8861A901E4F00DF0C43 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5B8851A901E4F00DF0C43 /* libsqlite3.dylib */; };
+		B6C5B88E1A90948B00DF0C43 /* MomentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C5B88C1A90948B00DF0C43 /* MomentViewController.m */; };
+		B6C5B88F1A90948B00DF0C43 /* MomentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C5B88D1A90948B00DF0C43 /* MomentViewController.xib */; };
+		B6DCC8481A90AF9300B98B5E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DCC8461A90AF9300B98B5E /* SettingsViewController.m */; };
+		B6DCC8491A90AF9300B98B5E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC8471A90AF9300B98B5E /* SettingsViewController.xib */; };
+		B6DCC84D1A90AF9F00B98B5E /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DCC84B1A90AF9F00B98B5E /* ExploreViewController.m */; };
+		B6DCC84E1A90AF9F00B98B5E /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC84C1A90AF9F00B98B5E /* ExploreViewController.xib */; };
+		B6DCC8521A90B01100B98B5E /* globe-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC8511A90B01100B98B5E /* globe-50@2x.png */; };
+		B6DCC8541A90B01D00B98B5E /* map-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC8531A90B01D00B98B5E /* map-50@2x.png */; };
+		B6DCC8561A90B02F00B98B5E /* settings-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC8551A90B02F00B98B5E /* settings-50@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +58,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6051A461A93AB8E00A41484 /* CustomMKPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMKPointAnnotation.h; sourceTree = "<group>"; };
+		B6051A471A93AB8E00A41484 /* CustomMKPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMKPointAnnotation.m; sourceTree = "<group>"; };
 		B6C5B82D1A8FD3A400DF0C43 /* TravelMapDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMapDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C5B8311A8FD3A400DF0C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C5B8321A8FD3A400DF0C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6C5B8341A8FD3A400DF0C43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6C5B8351A8FD3A400DF0C43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6C5B8371A8FD3A400DF0C43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6C5B8381A8FD3A400DF0C43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B6C5B83B1A8FD3A400DF0C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C5B83D1A8FD3A400DF0C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6C5B8401A8FD3A400DF0C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B6C5B8461A8FD3A400DF0C43 /* TravelMapDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelMapDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C5B84B1A8FD3A400DF0C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C5B84C1A8FD3A400DF0C43 /* TravelMapDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelMapDiaryTests.m; sourceTree = "<group>"; };
+		B6C5B8561A8FE73300DF0C43 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B6C5B8571A8FE73300DF0C43 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B6C5B8581A8FE73300DF0C43 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		B6C5B85B1A8FE95C00DF0C43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6C5B85D1A8FEC6900DF0C43 /* cottage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cottage.png; path = "../../../Dropbox Archive/Semester 6 (Fall 2014)/MOT 4001/My Team/Local Media Sharing App/Mountain Peak/Mountain Peak/cottage.png"; sourceTree = "<group>"; };
+		B6C5B85E1A8FEC6900DF0C43 /* cottage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cottage@2x.png"; path = "../../../Dropbox Archive/Semester 6 (Fall 2014)/MOT 4001/My Team/Local Media Sharing App/Mountain Peak/Mountain Peak/cottage@2x.png"; sourceTree = "<group>"; };
+		B6C5B8611A9017D000DF0C43 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B6C5B8621A9017D000DF0C43 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B6C5B8631A9017D000DF0C43 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		B6C5B8641A9017D000DF0C43 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B6C5B8651A9017D000DF0C43 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B6C5B86B1A901D3900DF0C43 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B6C5B86D1A901D4000DF0C43 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B6C5B86F1A901D9900DF0C43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6C5B8711A901DA200DF0C43 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B6C5B8731A901DA900DF0C43 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B6C5B8751A901DB000DF0C43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B6C5B8771A901DBA00DF0C43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B6C5B8791A901DC200DF0C43 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B6C5B87B1A901DCA00DF0C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6C5B87D1A901DD300DF0C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6C5B87F1A901DD900DF0C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6C5B8811A901E2100DF0C43 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		B6C5B8831A901E3200DF0C43 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		B6C5B8851A901E4F00DF0C43 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B6C5B88B1A90948B00DF0C43 /* MomentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentViewController.h; sourceTree = "<group>"; };
+		B6C5B88C1A90948B00DF0C43 /* MomentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentViewController.m; sourceTree = "<group>"; };
+		B6C5B88D1A90948B00DF0C43 /* MomentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MomentViewController.xib; sourceTree = "<group>"; };
+		B6DCC8451A90AF9300B98B5E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B6DCC8461A90AF9300B98B5E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B6DCC8471A90AF9300B98B5E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B6DCC84A1A90AF9F00B98B5E /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		B6DCC84B1A90AF9F00B98B5E /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		B6DCC84C1A90AF9F00B98B5E /* ExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
+		B6DCC8511A90B01100B98B5E /* globe-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-50@2x.png"; sourceTree = "<group>"; };
+		B6DCC8531A90B01D00B98B5E /* map-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-50@2x.png"; sourceTree = "<group>"; };
+		B6DCC8551A90B02F00B98B5E /* settings-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-50@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +114,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C5B8861A901E4F00DF0C43 /* libsqlite3.dylib in Frameworks */,
+				B6C5B8841A901E3200DF0C43 /* libz.1.1.3.dylib in Frameworks */,
+				B6C5B8801A901DD900DF0C43 /* Foundation.framework in Frameworks */,
+				B6C5B87E1A901DD300DF0C43 /* UIKit.framework in Frameworks */,
+				B6C5B87C1A901DCA00DF0C43 /* CoreGraphics.framework in Frameworks */,
+				B6C5B87A1A901DC200DF0C43 /* CFNetwork.framework in Frameworks */,
+				B6C5B8781A901DBA00DF0C43 /* SystemConfiguration.framework in Frameworks */,
+				B6C5B8761A901DB000DF0C43 /* MobileCoreServices.framework in Frameworks */,
+				B6C5B8741A901DA900DF0C43 /* AudioToolbox.framework in Frameworks */,
+				B6C5B8721A901DA200DF0C43 /* Security.framework in Frameworks */,
+				B6C5B8701A901D9900DF0C43 /* QuartzCore.framework in Frameworks */,
+				B6C5B86E1A901D4000DF0C43 /* CoreLocation.framework in Frameworks */,
+				B6C5B86C1A901D3900DF0C43 /* MessageUI.framework in Frameworks */,
+				B6C5B86A1A9017D000DF0C43 /* ParseUI.framework in Frameworks */,
+				B6C5B85C1A8FE95C00DF0C43 /* MapKit.framework in Frameworks */,
+				B6C5B8671A9017D000DF0C43 /* Parse.framework in Frameworks */,
+				B6C5B8661A9017D000DF0C43 /* Bolts.framework in Frameworks */,
+				B6C5B8691A9017D000DF0C43 /* ParseFacebookUtils.framework in Frameworks */,
+				B6C5B8681A9017D000DF0C43 /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +169,23 @@
 			children = (
 				B6C5B8341A8FD3A400DF0C43 /* AppDelegate.h */,
 				B6C5B8351A8FD3A400DF0C43 /* AppDelegate.m */,
-				B6C5B8371A8FD3A400DF0C43 /* ViewController.h */,
-				B6C5B8381A8FD3A400DF0C43 /* ViewController.m */,
-				B6C5B83A1A8FD3A400DF0C43 /* Main.storyboard */,
+				B6C5B8561A8FE73300DF0C43 /* MapViewController.h */,
+				B6C5B8571A8FE73300DF0C43 /* MapViewController.m */,
+				B6C5B8581A8FE73300DF0C43 /* MapViewController.xib */,
+				B6C5B88B1A90948B00DF0C43 /* MomentViewController.h */,
+				B6C5B88C1A90948B00DF0C43 /* MomentViewController.m */,
+				B6C5B88D1A90948B00DF0C43 /* MomentViewController.xib */,
+				B6DCC8451A90AF9300B98B5E /* SettingsViewController.h */,
+				B6DCC8461A90AF9300B98B5E /* SettingsViewController.m */,
+				B6DCC8471A90AF9300B98B5E /* SettingsViewController.xib */,
+				B6DCC84A1A90AF9F00B98B5E /* ExploreViewController.h */,
+				B6DCC84B1A90AF9F00B98B5E /* ExploreViewController.m */,
+				B6DCC84C1A90AF9F00B98B5E /* ExploreViewController.xib */,
+				B6051A461A93AB8E00A41484 /* CustomMKPointAnnotation.h */,
+				B6051A471A93AB8E00A41484 /* CustomMKPointAnnotation.m */,
 				B6C5B83D1A8FD3A400DF0C43 /* Images.xcassets */,
 				B6C5B83F1A8FD3A400DF0C43 /* LaunchScreen.xib */,
+				B6C5B8871A90255900DF0C43 /* Frameworks */,
 				B6C5B8301A8FD3A400DF0C43 /* Supporting Files */,
 			);
 			path = TravelMapDiary;
@@ -98,6 +196,11 @@
 			children = (
 				B6C5B8311A8FD3A400DF0C43 /* Info.plist */,
 				B6C5B8321A8FD3A400DF0C43 /* main.m */,
+				B6C5B85D1A8FEC6900DF0C43 /* cottage.png */,
+				B6C5B85E1A8FEC6900DF0C43 /* cottage@2x.png */,
+				B6DCC8511A90B01100B98B5E /* globe-50@2x.png */,
+				B6DCC8531A90B01D00B98B5E /* map-50@2x.png */,
+				B6DCC8551A90B02F00B98B5E /* settings-50@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +220,33 @@
 				B6C5B84B1A8FD3A400DF0C43 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C5B8871A90255900DF0C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C5B8851A901E4F00DF0C43 /* libsqlite3.dylib */,
+				B6C5B8831A901E3200DF0C43 /* libz.1.1.3.dylib */,
+				B6C5B8811A901E2100DF0C43 /* libz.1.2.5.dylib */,
+				B6C5B87F1A901DD900DF0C43 /* Foundation.framework */,
+				B6C5B87D1A901DD300DF0C43 /* UIKit.framework */,
+				B6C5B87B1A901DCA00DF0C43 /* CoreGraphics.framework */,
+				B6C5B8791A901DC200DF0C43 /* CFNetwork.framework */,
+				B6C5B8771A901DBA00DF0C43 /* SystemConfiguration.framework */,
+				B6C5B8751A901DB000DF0C43 /* MobileCoreServices.framework */,
+				B6C5B8731A901DA900DF0C43 /* AudioToolbox.framework */,
+				B6C5B8711A901DA200DF0C43 /* Security.framework */,
+				B6C5B86F1A901D9900DF0C43 /* QuartzCore.framework */,
+				B6C5B86D1A901D4000DF0C43 /* CoreLocation.framework */,
+				B6C5B86B1A901D3900DF0C43 /* MessageUI.framework */,
+				B6C5B85B1A8FE95C00DF0C43 /* MapKit.framework */,
+				B6C5B8611A9017D000DF0C43 /* Bolts.framework */,
+				B6C5B8621A9017D000DF0C43 /* Parse.framework */,
+				B6C5B8631A9017D000DF0C43 /* ParseCrashReporting.framework */,
+				B6C5B8641A9017D000DF0C43 /* ParseFacebookUtils.framework */,
+				B6C5B8651A9017D000DF0C43 /* ParseUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +329,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C5B83C1A8FD3A400DF0C43 /* Main.storyboard in Resources */,
+				B6DCC84E1A90AF9F00B98B5E /* ExploreViewController.xib in Resources */,
+				B6DCC8541A90B01D00B98B5E /* map-50@2x.png in Resources */,
 				B6C5B8411A8FD3A400DF0C43 /* LaunchScreen.xib in Resources */,
+				B6DCC8521A90B01100B98B5E /* globe-50@2x.png in Resources */,
+				B6C5B85F1A8FEC6900DF0C43 /* cottage.png in Resources */,
+				B6C5B88F1A90948B00DF0C43 /* MomentViewController.xib in Resources */,
+				B6DCC8561A90B02F00B98B5E /* settings-50@2x.png in Resources */,
+				B6C5B85A1A8FE73300DF0C43 /* MapViewController.xib in Resources */,
 				B6C5B83E1A8FD3A400DF0C43 /* Images.xcassets in Resources */,
+				B6DCC8491A90AF9300B98B5E /* SettingsViewController.xib in Resources */,
+				B6C5B8601A8FEC6900DF0C43 /* cottage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C5B8391A8FD3A400DF0C43 /* ViewController.m in Sources */,
+				B6C5B8591A8FE73300DF0C43 /* MapViewController.m in Sources */,
+				B6C5B88E1A90948B00DF0C43 /* MomentViewController.m in Sources */,
+				B6DCC8481A90AF9300B98B5E /* SettingsViewController.m in Sources */,
+				B6051A481A93AB8E00A41484 /* CustomMKPointAnnotation.m in Sources */,
 				B6C5B8361A8FD3A400DF0C43 /* AppDelegate.m in Sources */,
+				B6DCC84D1A90AF9F00B98B5E /* ExploreViewController.m in Sources */,
 				B6C5B8331A8FD3A400DF0C43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +386,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B6C5B83A1A8FD3A400DF0C43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6C5B83B1A8FD3A400DF0C43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6C5B83F1A8FD3A400DF0C43 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,9 +479,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TravelMapDiary",
+				);
 				INFOPLIST_FILE = TravelMapDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TravelMapDiary;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -356,9 +495,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TravelMapDiary",
+				);
 				INFOPLIST_FILE = TravelMapDiary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TravelMapDiary;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -377,7 +521,7 @@
 				);
 				INFOPLIST_FILE = TravelMapDiaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TravelMapDiaryTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelMapDiary.app/TravelMapDiary";
 			};
 			name = Debug;
@@ -392,7 +536,7 @@
 				);
 				INFOPLIST_FILE = TravelMapDiaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TravelMapDiaryTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelMapDiary.app/TravelMapDiary";
 			};
 			name = Release;
@@ -416,6 +560,7 @@
 				B6C5B8521A8FD3A400DF0C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6C5B8531A8FD3A400DF0C43 /* Build configuration list for PBXNativeTarget "TravelMapDiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +569,7 @@
 				B6C5B8551A8FD3A400DF0C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
