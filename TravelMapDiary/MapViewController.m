@@ -92,7 +92,9 @@
     [self.mapView removeAnnotations:self.mapView.annotations];
     
     PFQuery *query = [PFQuery queryWithClassName:@"Moment"];
-    [query whereKey:@"user" equalTo:[PFUser currentUser]];
+    if ([PFUser currentUser]) {
+        [query whereKey:@"user" equalTo:[PFUser currentUser]];
+    }
     
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
